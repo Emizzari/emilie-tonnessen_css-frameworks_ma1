@@ -1,0 +1,18 @@
+.box{
+    background: $color-light;
+    padding: 7rem 2rem;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
+    margin: 20px auto;
+
+    &--border{
+        background: white;
+        border: 3px solid $color-primary;
+    }
+
+    &--fill{
+        background: $color-primary;
+        border: 3px solid white;
+    }
+}

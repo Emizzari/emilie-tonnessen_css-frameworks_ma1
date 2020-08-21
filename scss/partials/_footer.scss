@@ -1,0 +1,25 @@
+.footer{
+    background: $color-light;
+    box-sizing: border-box;
+
+    &__item{
+        color: $color-grey;
+        margin: 0;
+        padding: 20px 0;
+    }
+}
+
+.email{
+    color: $color-grey;
+    box-sizing: border-box;
+
+    &:hover{
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+
+.copyright{
+    text-align: right;
+    margin: 0;
+}
