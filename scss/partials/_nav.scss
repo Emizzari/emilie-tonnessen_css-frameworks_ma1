@@ -5,13 +5,15 @@
         padding-left: 0;
         list-style: none;
         display: flex;
-        margin: 0;
-        align-self: right;
+
+        @media (min-width: 576px) {
+            flex-direction: column;
+            align-items: flex-end;
+        }
     }
 
     &__item {
-        color: white;
-        margin-right: 1rem;
+        color: #000;
     }
 
     &__link {
@@ -22,6 +24,11 @@
 
     &__link--active {
         color: $color-primary;
+    }
+
+    &__icon{
+        font-size: 30px;
+        margin: 0;
     }
 }
 
